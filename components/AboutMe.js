@@ -148,10 +148,6 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
@@ -164,15 +160,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -180,15 +168,23 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
+                src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--XsZRGi5O--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/763/988af53b-5d7e-435a-98eb-dd4aff5299d2.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://avatars.githubusercontent.com/u/17177659?s=280&v=4"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

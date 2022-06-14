@@ -18,6 +18,7 @@ export default function Projects() {
               link={proj.link}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
+              key={proj.title}
             />
           ))}
         </div>
