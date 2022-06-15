@@ -29,7 +29,7 @@ const userData = {
       imgUrl: "/batch23.png",
     },
     {
-      title: "uMusic",
+      title: "uMusic Player",
       link: "https://sujeetag04.github.io/umusic/",
       imgUrl: "/umusic.png",
     },
