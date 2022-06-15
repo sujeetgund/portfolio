@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import userData from "@constants/data";
 
 export default function Contact() {
+  const [name, setname] = useState("")
+  const [email, setemail] = useState("")
+  const [message, setmessage] = useState("")
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(name, email, message)
+  }
+
+  const handleName = (e) => {
+    setname(e.target.value)
+  }
+  const handleEmail =(e)=>{
+    setemail(e.target.value)
+  }
+  const handleMessage =(e)=> {
+    setmessage(e.target.value)
+  }
+
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
@@ -141,23 +160,29 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form onSubmit={handleSubmit} method='POST'  className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
             </label>
             <input
               type="text"
+              value={name}
+              onChange={handleName}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
+              required
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email
             </label>
             <input
-              type="text"
+              type="email"
+              value={email}
+              onChange={handleEmail}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
+              required
             />
             <label
               htmlFor="message"
@@ -166,12 +191,17 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              rows="4"
+              rows="6"
               type="text"
+              style={{ resize: "none" }}
+              value={message}
+              onChange={handleMessage}
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
+              required
             ></textarea>
             <button
+              
               type="submit"
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >

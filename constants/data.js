@@ -30,7 +30,7 @@ const userData = {
     },
     {
       title: "uMusic",
-      link: "https://sujeetag04.github.io/music-gallery/",
+      link: "https://sujeetag04.github.io/umusic/",
       imgUrl: "/umusic.png",
     },
     {
