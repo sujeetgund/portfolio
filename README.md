@@ -3,7 +3,7 @@
 
 Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Manu Arora](https://manuarora.in/). The website is completely Open Source, you can use it for whatever purpose you want.
 
-![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/preview.mp4)
+![HomeGif](https://github.com/sujeetag04/portfolio/demo-images/preview.mp4)
 
 # Features ⚡️
 
@@ -19,23 +19,23 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ## Landing
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
+![Hompage](https://github.com/sujeetag04/portfolio/demo-images/home.png)
 
 ## About
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
+![Hompage](https://github.com/sujeetag04/portfolio/demo-images/about.png)
 
 ## Projects
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
+![Hompage](https://github.com/sujeetag04/portfolio/demo-images/projects.png)
 
 ## Experience
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
+![Hompage](https://github.com/sujeetag04/portfolio/demo-images/experience.png)
 
 ## Contact
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
+![Hompage](https://github.com/sujeetag04/portfolio/demo-images/contact.png)
 
 # Tech Stack 📦️ 
 The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
