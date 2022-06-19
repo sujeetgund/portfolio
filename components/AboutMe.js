@@ -15,7 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
+            {userData.about.title} Currently working on{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -61,6 +61,9 @@ export default function AboutMe() {
                 and I'd love to work for you.
               </p>
             </div>
+
+
+
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
@@ -127,6 +130,8 @@ export default function AboutMe() {
                 </a>
               </div>
             </div>
+
+            <a href="https://www.buymeacoffee.com/sujeetgund" target="_blank" rel="noreferrer"><img className="p-5" src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174" /></a>
           </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
@@ -144,47 +149,47 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                src="/html-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+                src="/css-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                src="js-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                src="ts-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                src="/git-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                src="/react-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
+                src="/nextjs-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                src="/firebase-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://res.cloudinary.com/practicaldev/image/fetch/s--XsZRGi5O--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/763/988af53b-5d7e-435a-98eb-dd4aff5299d2.png"
+                src="/strapi-logo.webp"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png"
+                src="/mongodb-logo.webp"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://avatars.githubusercontent.com/u/17177659?s=280&v=4"
+                src="/sanity-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>
