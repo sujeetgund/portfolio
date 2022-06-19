@@ -1,17 +1,11 @@
 ## Portfolio Website For Developers 💯
 
-**UPDATE:**
 
+Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Manu Arora](https://manuarora.in/). The website is completely Open Source, you can use it for whatever purpose you want.
 
-1. Wrote a detailed blog on [freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss/), describing and explaining how I built this application from the ground up.
+![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/preview.mp4)
 
-2. Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
-
-Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, you can use it for whatever purpose you want.
-
-![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
-
-# Features
+# Features ⚡️
 
 - Responsive layout, works well on both Mobile and Desktop
 - Dark mode support. Click buttons to toggle dark mode and light mode.
@@ -19,7 +13,7 @@ Portfolio for developers is a simple and minimalistic website to showcase your s
 - Exact sections that a developer needs to showcase their skills.
 - Clear call to actions.
 
-# Pages
+# Pages 📝
 
 I've kept the pages as simple as possible. Only the required sections are included with minimal content.
 
@@ -43,8 +37,7 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
 
-# Tech Stack
-
+# Tech Stack 📦️ 
 The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
 
 - [Next.js](https://nextjs.org) for building React Components.
@@ -52,14 +45,14 @@ The website is built in my favourite Tech Stack and deployed on [Vercel](https:/
 - [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
 - [Vercel](https://vercel.com) for deployments and CI/CD.
 
-# Usage
+# Usage With Github 🔨
 
-- Clone the repository using `git clone https://github.com/manuarora700/simple-developer-portfolio-website.git`
+- Clone the repository using `git clone https://github.com/sujeetag04/portfolio.git`
 - Install all the modules by using `npm i` or `npm install` or `yarn`
 - Run the local development server by using `npm run dev` or `yarn dev`
 - Make the required edits and deploy to YOUR GitHub repo for CI/CD.
 
-# Deployment
+# Deployment 🚀
 
 Deployment can be done in 3 easy steps.
 
@@ -67,10 +60,8 @@ Deployment can be done in 3 easy steps.
 - Create a `New Project` and select YOUR GitHub repository of the portfolio project.
 - Wait for Vercel to deploy your project to production.
 
-# License
 
-This template is completely open source and free to use. Use it for client projects or your own portfolio project. Give me credits at the footer (If you wish, it'll help me a lot :)).
 
-# Support
+# Support 🎁
 
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/sujeetgund" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
