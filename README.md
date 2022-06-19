@@ -3,7 +3,7 @@
 
 Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Manu Arora](https://manuarora.in/). The website is completely Open Source, you can use it for whatever purpose you want.
 
-![HomeGif](https://github.com/sujeetag04/portfolio/blob/main/demo-images/preview.mp4)
+![Watch Preview On Youtube](https://youtu.be/TENBgUTzwgU)
 
 # Features ⚡️
 
