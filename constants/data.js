@@ -30,7 +30,7 @@ const userData = {
     },
     {
       title: "uMusic Player",
-      link: "https://sujeetag04.github.io/umusic/",
+      link: "https://sujeetag04.github.io/uMusic/",
       imgUrl: "/umusic.png",
     },
     {
@@ -105,5 +105,7 @@ const userData = {
     facebook: "https://facebook.com/sujeet.gund.98",
   },
 };
+
+// TODO: nice work
 
 export default userData;
