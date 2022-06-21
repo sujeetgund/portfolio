@@ -19,7 +19,12 @@ const userData = {
       imgUrl: "/airbnb.png",
     },
     {
-      title: "Portfolio",
+      title: "Hulu Clone",
+      link: "https://hulu-clone-2832.vercel.app/",
+      imgUrl: "/hulu.png",
+    },
+    {
+      title: "Statuc Portfolio",
       link: "https://sujeetag04.github.io/portfolio/",
       imgUrl: "/portfolio.png",
     },
@@ -48,8 +53,8 @@ const userData = {
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `But now, I'm a legend. I've been coding in React, Node.js, Next.js, MongoDB, MySQL, Bootstrap, TailwindCSS, PHP, Strapi, Sanity etc to name a few. Although I barely know the syntax (Stack overflow!), I beleive I code with my own wisdom!.`,
     ],
-    currentProject: "Tailwind UI Components",
-    currentProjectUrl: "https://tailwind-free-components.vercel.app/",
+    currentProject: "Hulu - A streaming site",
+    currentProjectUrl: "https://hulu-clone-2832.vercel.app/",
   },
   experience: [
     {
