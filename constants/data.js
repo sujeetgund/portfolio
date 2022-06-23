@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "sujeetgund",
   name: "Sujeet Gund",
-  designation: "Full-Stack Developer",
+  designation: "Full Stack Developer",
   avatarUrl: "/sujeet.jpg",
   // avatarUrl: "https://pbs.twimg.com/profile_images/1494703351149301760/GeuTvrEd_400x400.jpg",
   email: "sujeetgund@gmail.com",
