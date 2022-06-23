@@ -1,5 +1,5 @@
 const userData = {
-  githubUsername: "sujeetag04",
+  githubUsername: "sujeetgund",
   name: "Sujeet Gund",
   designation: "Full-Stack Developer",
   avatarUrl: "/sujeet.jpg",
@@ -25,17 +25,17 @@ const userData = {
     },
     {
       title: "Statuc Portfolio",
-      link: "https://sujeetag04.github.io/portfolio/",
+      link: "https://sujeetgund.github.io/portfolio/",
       imgUrl: "/portfolio.png",
     },
     {
       title: "Batch 23 Community",
-      link: "https://sujeetag04.github.io/Batch-23/",
+      link: "https://sujeetgund.github.io/Batch-23/",
       imgUrl: "/batch23.png",
     },
     {
       title: "uMusic Player",
-      link: "https://sujeetag04.github.io/uMusic/",
+      link: "https://sujeetgund.github.io/uMusic/",
       imgUrl: "/umusic.png",
     },
     {
@@ -53,16 +53,16 @@ const userData = {
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `But now, I'm a legend. I've been coding in React, Node.js, Next.js, MongoDB, MySQL, Bootstrap, TailwindCSS, PHP, Strapi, Sanity etc to name a few. Although I barely know the syntax (Stack overflow!), I beleive I code with my own wisdom!.`,
     ],
-    currentProject: "Hulu - A streaming site",
+    currentProject: "Hulu - A Streaming Site",
     currentProjectUrl: "https://hulu-clone-2832.vercel.app/",
   },
   experience: [
     {
       title: "Founder and Developer",
-      company: "At my startup",
+      company: "At My Startup",
       year: "2029",
       companyLink: "#",
-      desc: "Moving on, to live your own life!",
+      desc: "Moving on, to live my own life!",
     },
     {
       title: "Internship",
@@ -92,7 +92,7 @@ const userData = {
     instagram: "https://instagram.com/sujeet.gund",
     twitter: "https://twitter.com/Sujeet_Gund",
     linkedin: "https://in.linkedin.com/in/sujeetgund",
-    github: "https://github.com/sujeetag04",
+    github: "https://github.com/sujeetgund",
     facebook: "https://facebook.com/sujeet.gund.98",
   },
 };
