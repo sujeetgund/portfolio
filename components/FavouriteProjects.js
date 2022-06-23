@@ -58,18 +58,18 @@ export default function FavouriteProjects() {
 
           {/* Single card */}
           <a
-            href="https://airbnb-clone-sujeetag04.vercel.app/"
+            href="https://hulu-clone-2832.vercel.app/"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/airbnb.png"
-                alt="Airbnb Clone Project"
+                src="/hulu.png"
+                alt="Hulu Clone Project"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Airbnb Clone
+                Hulu Clone
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -80,18 +80,18 @@ export default function FavouriteProjects() {
 
           {/* Single card */}
           <a
-            href="https://manuarora.in"
+            href="https://airbnb-clone-sujeetag04.vercel.app/"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/portfolio.png"
-                alt="portfolio"
+                src="/airbnb.png"
+                alt="Airbnb Clone Project"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Portfolio
+                Airbnb Clone
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03

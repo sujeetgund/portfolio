@@ -15,7 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title} Currently working on{" "}
+            {userData.about.title} Currently working on{" "} <br />
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -131,7 +131,7 @@ export default function AboutMe() {
               </div>
             </div>
 
-            <a href="https://www.buymeacoffee.com/sujeetgund" target="_blank" rel="noreferrer"><img className="p-5" src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174" /></a>
+            <a href="https://www.buymeacoffee.com/sujeetgund" target="_blank" rel="noreferrer"><img className="p-5" src="/buy-me-a-coffee.png" alt="Buy Me A Coffee" height="48" width="180" /></a>
           </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
@@ -190,6 +190,10 @@ export default function AboutMe() {
               />
               <img
                 src="/sanity-logo.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="/python-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

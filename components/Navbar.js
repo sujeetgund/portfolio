@@ -15,11 +15,11 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl select-none  mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
-        <div className="flex flex-col">
+        <div className="flex select-none flex-col">
           <Link href="/">
             <a>
               <h1 className="font-semibold text-xl dark:text-gray-100">

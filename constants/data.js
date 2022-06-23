@@ -24,7 +24,7 @@ const userData = {
       imgUrl: "/hulu.png",
     },
     {
-      title: "Statuc Portfolio",
+      title: "Static Portfolio",
       link: "https://sujeetgund.github.io/portfolio/",
       imgUrl: "/portfolio.png",
     },
@@ -49,9 +49,9 @@ const userData = {
     title:
       "I'm a student of programming that loves building products and web applications. I barely talk, code more!",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2021 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Node.js, Next.js, MongoDB, MySQL, Bootstrap, TailwindCSS, PHP, Strapi, Sanity etc to name a few. Although I barely know the syntax (Stack overflow!), I beleive I code with my own wisdom!.`,
+      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then.`,
+      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using tailwindCSS so that I don't have to style everything by myself and - for obvious reasons - if you knew tailwind, you were cool.`,
+      `But now, I'm a legend. I've been coding in React, Node.js, Next.js, MongoDB, MySQL, Bootstrap, TailwindCSS, PHP, Strapi, Sanity etc to name a few. Although I barely know the syntax!`,
     ],
     currentProject: "Hulu - A Streaming Site",
     currentProjectUrl: "https://hulu-clone-2832.vercel.app/",
@@ -87,7 +87,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "#",
   socialLinks: {
     instagram: "https://instagram.com/sujeet.gund",
     twitter: "https://twitter.com/Sujeet_Gund",
