@@ -34,16 +34,21 @@ const userData = {
       imgUrl: "/batch23.png",
     },
     {
-      title: "uMusic Player",
-      link: "https://sujeetgund.github.io/uMusic/",
-      imgUrl: "/umusic.png",
-    },
-    {
       title: "Mojo TV",
       link: "https://mojo-tv.vercel.app/",
       imgUrl: "/mojotv.png",
     },
-    
+    {
+      title: "Starbucks Store API",
+      link: "https://rapidapi.com/sujeetgund/api/starbucks-store-data/",
+      imgUrl: "/starbucks-store.png"
+    },
+    {
+      title: "Cinemos API",
+      link: "https://sujeetgund.github.io/cinemos-docs/",
+      imgUrl: "/cinemos-api.png",
+    },
+
   ],
   about: {
     title:
@@ -53,8 +58,8 @@ const userData = {
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using tailwindCSS so that I don't have to style everything by myself and - for obvious reasons - if you knew tailwind, you were cool.`,
       `But now, I'm a legend. I've been coding in React, Node.js, Next.js, MongoDB, MySQL, Bootstrap, TailwindCSS, PHP, Strapi, Sanity etc to name a few. Although I barely know the syntax!`,
     ],
-    currentProject: "Hulu - A Streaming Site",
-    currentProjectUrl: "https://hulu-clone-2832.vercel.app/",
+    currentProject: "Cinemos API",
+    currentProjectUrl: "https://sujeetgund.github.io/cinemos-docs/",
   },
   experience: [
     {
