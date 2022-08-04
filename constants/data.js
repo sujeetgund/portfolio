@@ -11,43 +11,48 @@ const userData = {
     {
       title: "Medium Clone",
       link: "https://medium-sanity-woad.vercel.app/",
-      imgUrl: "/medium.png",
+      imgUrl: "projects/medium.png",
     },
     {
       title: "Airbnb Clone",
       link: "https://airbnb-clone-sujeetag04.vercel.app/",
-      imgUrl: "/airbnb.png",
+      imgUrl: "projects/airbnb.png",
     },
     {
       title: "Hulu Clone",
       link: "https://hulu-clone-2832.vercel.app/",
-      imgUrl: "/hulu.png",
+      imgUrl: "projects/hulu.png",
     },
     {
       title: "Static Portfolio",
       link: "https://sujeetgund.github.io/portfolio/",
-      imgUrl: "/portfolio.png",
+      imgUrl: "projects/portfolio.png",
     },
     {
       title: "Batch 23 Community",
       link: "https://sujeetgund.github.io/Batch-23/",
-      imgUrl: "/batch23.png",
+      imgUrl: "projects/batch23.png",
     },
     {
       title: "Mojo TV",
       link: "https://mojo-tv.vercel.app/",
-      imgUrl: "/mojotv.png",
+      imgUrl: "projects/mojotv.png",
     },
     {
       title: "Starbucks Store API",
       link: "https://rapidapi.com/sujeetgund/api/starbucks-store-data/",
-      imgUrl: "/starbucks-store.png"
+      imgUrl: "projects/starbucks-store.png"
     },
     {
       title: "Cinemos API",
       link: "https://sujeetgund.github.io/cinemos-docs/",
-      imgUrl: "/cinemos-api.png",
+      imgUrl: "projects/cinemos-api.png",
     },
+    {
+      title: "Fastmedia",
+      link: "https://fastmedia.vercel.app/",
+      imgUrl: "projects/fastmedia.png",
+    }
 
   ],
   about: {

@@ -149,51 +149,51 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
-                src="/html-logo.png"
+                src="tech stack/html-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/css-logo.png"
+                src="tech stack/css-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="js-logo.png"
+                src="tech stack/js-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="ts-logo.png"
+                src="tech stack/ts-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/git-logo.png"
+                src="tech stack/git-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/react-logo.png"
+                src="tech stack/react-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/nextjs-logo.png"
+                src="tech stack/nextjs-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/firebase-logo.png"
+                src="tech stack/firebase-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/strapi-logo.webp"
+                src="tech stack/strapi-logo.webp"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/mongodb-logo.webp"
+                src="tech stack/mongodb-logo.webp"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/sanity-logo.png"
+                src="tech stack/sanity-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/python-logo.png"
+                src="tech stack/python-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

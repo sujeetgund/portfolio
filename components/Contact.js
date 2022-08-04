@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import userData from "@constants/data";
 import { FaMailchimp } from 'react-icons/fa'
-import { DiMailchimp } from 'react-icons/di'
 
 export default function Contact() {
-
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
@@ -14,18 +12,18 @@ export default function Contact() {
       </div>
       <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="md:ml-4 md:col-span-2">
+          <div className="md:ml-4">
             <header className="">
-              <h1 className="text-gray-50 font-semibold text-2xl">
+              <h1 className="text-gray-50 font-semibold text-2xl md:text-3xl">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-base text-gray-200 mt-2">
+              <p className="font-light text-xs text-gray-200 mt-2">
                 Contact me with Mailchimp and I'll get back to you as soon as I can.
               </p>
             </header>
 
             {/* phone, email, address */}
-            <div className="icons-container inline-flex flex-col md:flex-row my-10">
+            <div className="icons-container inline-flex flex-col my-10">
               <div className="cursor-pointer flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -145,20 +143,20 @@ export default function Contact() {
                     fill="currentColor"
                   />
                 </svg>
-              </a>      
-
-            {/* Mailchimp Contact Button */}
-            <div className="w-44">
-              <a href="https://us14.list-manage.com/contact-form?u=ccd7e756f9dc75821ae310866&form_id=7b06c556cdfe5559405c01eeded2454b" target='_blank' rel="noreferrer" className="w-full flex items-center justify-center px-4 py-2 bg-yellow-500 text-md rounded-full hover:bg-yellow-600">
-                <FaMailchimp />
-                <span className="font-medium mx-2">Contact Me</span>
               </a>
-            </div>
+
+              {/* Mailchimp Contact Button */}
+              <div>
+                <a href="https://us14.list-manage.com/contact-form?u=ccd7e756f9dc75821ae310866&form_id=7b06c556cdfe5559405c01eeded2454b" target='_blank' rel="noreferrer" className="w-full flex items-center justify-center px-4 py-2 bg-yellow-500 text-md rounded-full hover:bg-yellow-600">
+                  <FaMailchimp />
+                  <span className="font-medium mx-2 whitespace-nowrap text-sm lg:text-lg">Contact Me</span>
+                </a>
+              </div>
             </div>
           </div>
 
 
-          {/* <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form action={`https://formsubmit.co/${userData.email}`} method="POST" className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
@@ -192,13 +190,16 @@ export default function Contact() {
               name="message"
               required
             ></textarea>
-            <button             
+            <input type="hidden" name="_subject" value="Message from Website!"/>
+            <input type="hidden" name="_captcha" value="false"/>
+            <input type="hidden" name="_next" value={`https://sujeetgund.vercel.app/contact`} />
+            <button
               type="submit"
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
               Send Message
             </button>
-          </form> */}
+          </form>
         </div>
       </div>
     </section>
